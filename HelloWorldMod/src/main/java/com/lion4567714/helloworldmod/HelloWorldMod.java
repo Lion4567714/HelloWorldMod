@@ -1,6 +1,7 @@
 package com.lion4567714.helloworldmod;
 
 import com.lion4567714.helloworldmod.init.ItemInit;
+import com.lion4567714.helloworldmod.init.BlockInit;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -28,6 +29,7 @@ public class HelloWorldMod {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

@@ -1,5 +1,6 @@
 {
     "item.helloworldmod.poggers_item": "Poggers Item",
     "item.helloworldmod.banana": "Banana",
-    "itemGroup.helloworldmod": "Hello World Tab"
+    "itemGroup.helloworldmod": "Hello World Tab",
+    "block.helloworldmod.poggers_block": "Poggers Block"
 }
